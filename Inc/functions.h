@@ -75,8 +75,8 @@ enum status_protection
 
 #define LINHA_ESCRITA                   0x04
 #define COLUNA_ESCRITA                  68
-#define DEBOUNCE_TOUCH_VALUE            150
-#define DEBOUNCE_ROTACAO                10
+#define DEBOUNCE_TOUCH_VALUE            150     //ms
+#define DEBOUNCE_ROTACAO                10      //ms
 #define TIMEOUT_TRANSICAO_0_to_1        5000    //ms
 
 #define COM_DISPLAY
@@ -108,9 +108,6 @@ enum status_protection
 #define TEMPO_LIGADO_FUNCAO_MIX 100     //ms
 #define TEMPO_CICLO_FUNCAO_MIX  1000    //ms
 
-
-
-//corrente de proteção para motor 220 = 7A (parâmetro superior = 5.8 e inferior = 4.8 (6 Amperes)
 
 
 #ifdef FW_PRODUCAO
